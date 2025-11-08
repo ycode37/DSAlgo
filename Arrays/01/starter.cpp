@@ -17,10 +17,10 @@ int main()
     {
         cin >> arr[i];
     }
-    // for (int i = 0; i < size; i++)
-    // {
-    //     cout << arr[i];
-    // }
+    for (int i = 0; i < size; i++)
+    {
+        cout << arr[i];
+    }
     cout << "Size of Array is " << sizeof(arr) / sizeof(arr[0]) << " "; // this is how to calculate size of an array
 
     int ans = INT_MIN;
